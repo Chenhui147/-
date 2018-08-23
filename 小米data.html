@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小米nav1数据</title>
+	<script>
+		var arr = [
+		{
+			title:"小米手机",
+			child:[
+			{id:0,img:"images/nav1pic/1.jpg",phoneName:"小米8",price:"2699元起",isNew:"新品"},
+			{id:1,img:"images/nav1pic/2.png",phoneName:"小米8 SE",price:"1799元起",isNew:"新品"},
+			{id:2,img:"images/nav1pic/3.png",phoneName:"小米Max 3",price:"1699元起",isNew:"新品"},
+			{id:3,img:"images/nav1pic/4.png",phoneName:"小米MIX 2S",price:"3299元起",isNew:""},
+			{id:4,img:"images/nav1pic/5.png",phoneName:"小米MIX 2",price:"2599元起",isNew:""},
+			{id:5,img:"images/nav1pic/6.jpg",phoneName:"小米6X",price:"1399元起",isNew:""}
+			]
+		},
+
+		{
+			title:"红米",
+			child:[
+			{id:6,img:"images/nav1pic/7.png",phoneName:"红米6 Pro",price:"999元起",isNew:"新品"},
+			{id:7,img:"images/nav1pic/8.png",phoneName:"红米6",price:"799元起",isNew:"新品"},
+			{id:8,img:"images/nav1pic/9.png",phoneName:"红米6A",price:"599元起",isNew:"新品"},
+			{id:9,img:"images/nav1pic/10.png",phoneName:"红米Note 5",price:"1099元起",isNew:""},
+			{id:10,img:"images/nav1pic/11.jpg",phoneName:"红米S2",price:"999元起",isNew:""},
+			{id:11,img:"images/nav1pic/12.png",phoneName:"红米5 Plus",price:"999元起",isNew:""}
+			]
+		},
+
+		{
+			title:"电视",
+			child:[
+			{id:12,img:"images/nav1pic/13.png",phoneName:"小米电视4 75英寸",price:"8999元",isNew:"热卖"},
+			{id:13,img:"images/nav1pic/14.png",phoneName:"小米电视4A 32英寸",price:"899元",isNew:""},
+			{id:14,img:"images/nav1pic/15.png",phoneName:"小米电视4A 43英寸青春版",price:"1399元",isNew:"热卖"},
+			{id:15,img:"images/nav1pic/16.png",phoneName:"小米电视4A 50英寸",price:"1799元",isNew:""},
+			{id:16,img:"images/nav1pic/17.png",phoneName:"小米电视4A 55英寸",price:"2299元",isNew:""},
+			{id:17,img:"images/nav1pic/18.png",phoneName:"查看全部",price:"小米电视",isNew:""},
+			]
+		},
+
+		{
+			title:"笔记本",
+			child:[
+			{id:18,img:"images/nav1pic/19.png",phoneName:"小米平板",price:"1099元起",isNew:""},
+			{id:19,img:"images/nav1pic/20.jpg",phoneName:"小米游戏本 8代",price:"6699元起",isNew:"新品"},
+			{id:20,img:"images/nav1pic/21.jpg",phoneName:"小米笔记本15.6 GTX版",price:"6299元起",isNew:"新品"},
+			{id:21,img:"images/nav1pic/22.png",phoneName:"小米游戏本",price:"5999元起",isNew:""},
+			{id:22,img:"images/nav1pic/23.jpg",phoneName:"小米笔记本 Pro",price:"5599元起",isNew:""},
+			{id:23,img:"images/nav1pic/24.jpg",phoneName:"小米笔记本 Air系列",price:"3599元起",isNew:""}
+			]
+		},
+
+		{
+			title:"空调",
+			child:[
+			{id:24,img:"images/nav1pic/25.png",phoneName:"小米互联网空调",price:"1999元起",isNew:""}
+			]
+		},
+
+		{
+			title:"新品",
+			child:[
+			{id:25,img:"images/nav1pic/26.png",phoneName:"小米手环3",price:"169元起",isNew:""},
+			{id:26,img:"images/nav1pic/27.jpg",phoneName:"小米路由器4",price:"199元",isNew:"新品"},
+			{id:27,img:"images/nav1pic/28.jpg",phoneName:"小米小爱音箱mini",price:"169元",isNew:""},
+			{id:28,img:"images/nav1pic/29.png",phoneName:"米家投影仪",price:"3999元",isNew:""},
+			{id:29,img:"images/nav1pic/30.png",phoneName:"小米VR 一体机",price:"1499元",isNew:""},
+			{id:30,img:"images/nav1pic/30.png",phoneName:"小米米家智能摄像机 云台版",price:"199元",isNew:""}
+			]
+		},
+
+		{
+			title:"路由器",
+			child:[
+			{id:31,img:"images/nav1pic/27.jpg",phoneName:"小米路由器4",price:"179元起",isNew:"双千兆"},
+			{id:32,img:"images/nav1pic/27.jpg",phoneName:"小米路由器4Q",price:"69元",isNew:"大容量"},
+			{id:33,img:"images/nav1pic/27.jpg",phoneName:"小米路由器3A",price:"99元",isNew:""},
+			{id:34,img:"images/nav1pic/31.jpg",phoneName:"小米路由器3G",price:"199元",isNew:"新品"},
+			{id:35,img:"images/nav1pic/32.jpg",phoneName:"小米路由器 HD/Pro",price:"499元起",isNew:"新品"},
+			{id:36,img:"images/nav1pic/27.jpg",phoneName:"查看全部小米路由器",price:"",isNew:""}
+			]
+		},
+
+		{
+			title:"智能硬件",
+			child:[
+			{id:37,img:"images/nav1pic/33.jpg",phoneName:"小米小爱音箱mini",price:"169元",isNew:""},
+			{id:38,img:"images/nav1pic/33.jpg",phoneName:"小米无人机",price:"2999元",isNew:"新品"},
+			{id:39,img:"images/nav1pic/33.jpg",phoneName:"小米净水器",price:"1999元",isNew:""},
+			{id:40,img:"images/nav1pic/33.jpg",phoneName:"米家扫地机器人",price:"1699元",isNew:""},
+			{id:41,img:"images/nav1pic/33.jpg",phoneName:"米家压力IH电饭煲",price:"999元",isNew:""},
+			{id:42,img:"images/nav1pic/33.jpg",phoneName:"查看全部",price:"智能硬件",isNew:""}
+			]
+		},
+		{title:"服务",child:[]},
+		{title:"社区",child:[]}
+		]
+
+		document.write(JSON.stringify(arr));
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
