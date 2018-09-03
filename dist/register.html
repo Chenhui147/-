@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<link rel="stylesheet" href="css/register.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+</head>
+<body>
+	<div id="register">
+		<div class="register-con">
+			<h1>注册小米账号</h1>
+			<form action="http://localhost/xiaomiphp/register.php" method="post" enctype='application/x-www-form-urlencoded'>
+				<input type="text" placeholder="邮箱/手机号码/小米ID" name="user">
+				<span></span>
+				<br/>
+				<input type="password" placeholder="密码" name="pass"><br/>
+				<input type="submit" value="立即注册">
+				<p>
+					<span class="iconfont icon-roundcheckfill"></span>注册帐号即表示您同意并愿意遵守小米 <a href="#">用户协议</a>和 <a href="#">隐私政策</a>
+				</p>
+			</form>
+		</div>
+	</div>
+	<!-- bottom部分 -->
+	<div id="bottom">
+		<p>
+			<a href="#"> 简体 |</a>
+			<a href="#"> 繁体 |</a>
+			<a href="#"> English |</a>
+			<a href="#"> 常见问题 |</a>
+		</p>
+		<p>
+			小米公司版权所有-京ICP备10046444-<img src="images/ghs.png" alt=""> 京公网安备11010802020134号-京ICP证110507号
+		</p>
+	</div>
+</body>
+<script src = "js/require.js" defer async="true" data-main = "js/main"></script>
+</html>

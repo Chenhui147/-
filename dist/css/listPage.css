@@ -1,0 +1,118 @@
+@charset "UTF-8";
+#successAdd {
+  background: #f5f5f5; }
+  #successAdd > .successAdd-con {
+    width: 1120px;
+    height: 90px;
+    margin: 0 auto;
+    background: url(../images/success.png) no-repeat left center;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 40px 0 0 80px; }
+    #successAdd > .successAdd-con > .left {
+      float: left; }
+      #successAdd > .successAdd-con > .left > h1 {
+        font-size: 20px;
+        margin-bottom: 10px; }
+      #successAdd > .successAdd-con > .left > p {
+        font-size: 13px;
+        color: #75767a; }
+    #successAdd > .successAdd-con > .right {
+      width: 400px;
+      height: 100%;
+      float: right; }
+      #successAdd > .successAdd-con > .right > a {
+        display: inline-block;
+        width: 180px;
+        height: 35px;
+        border: 1px solid #afafaf;
+        color: #737373;
+        text-align: center;
+        line-height: 35px;
+        font-size: 13px; }
+      #successAdd > .successAdd-con > .right > a:nth-child(2) {
+        background: #ff6702;
+        border: 0;
+        color: #fff; }
+
+/* relatedRecommend相关推荐部分 */
+#relatedRecommend {
+  background: #f5f5f5; }
+  #relatedRecommend > .relatedRecommend-con {
+    width: 1200px;
+    height: 780px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden; }
+    #relatedRecommend > .relatedRecommend-con > h1 {
+      height: 80px;
+      font-size: 31px;
+      text-align: center;
+      line-height: 80px; }
+    #relatedRecommend > .relatedRecommend-con > div:nth-of-type(1) {
+      width: 1200px;
+      height: 700px; }
+      #relatedRecommend > .relatedRecommend-con > div:nth-of-type(1) > ul {
+        height: 630px;
+        width: 2400px;
+        position: absolute; }
+        #relatedRecommend > .relatedRecommend-con > div:nth-of-type(1) > ul > li {
+          width: 226px;
+          height: 260px;
+          background: #fff;
+          font-size: 13px;
+          text-align: center;
+          padding-top: 40px;
+          float: left;
+          margin: 7px 7px;
+          position: relative; }
+          #relatedRecommend > .relatedRecommend-con > div:nth-of-type(1) > ul > li > a {
+            display: block;
+            color: #4b2b14; }
+            #relatedRecommend > .relatedRecommend-con > div:nth-of-type(1) > ul > li > a > img {
+              width: 226px;
+              height: 130px;
+              margin-bottom: 20px; }
+          #relatedRecommend > .relatedRecommend-con > div:nth-of-type(1) > ul > li > p {
+            color: #f58f51;
+            margin: 10px 0; }
+          #relatedRecommend > .relatedRecommend-con > div:nth-of-type(1) > ul > li > span {
+            color: #737277; }
+          #relatedRecommend > .relatedRecommend-con > div:nth-of-type(1) > ul > li > b {
+            display: block;
+            width: 120px;
+            height: 30px;
+            border: 1px solid #e87826;
+            color: #e87826;
+            text-align: center;
+            line-height: 30px;
+            margin-left: 50px;
+            display: none;
+            cursor: pointer; }
+          #relatedRecommend > .relatedRecommend-con > div:nth-of-type(1) > ul > li > i {
+            display: block;
+            width: 226px;
+            height: 0;
+            color: #fff;
+            text-align: center;
+            line-height: 35px;
+            background: #84c34e;
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden; }
+    #relatedRecommend > .relatedRecommend-con > div:nth-of-type(2) {
+      width: 100px;
+      height: 30px;
+      position: absolute;
+      left: 550px;
+      bottom: 15px; }
+      #relatedRecommend > .relatedRecommend-con > div:nth-of-type(2) > b {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background: #aaaaaa;
+        border-radius: 50%;
+        margin-right: 15px; }
+      #relatedRecommend > .relatedRecommend-con > div:nth-of-type(2) > b:nth-child(1) {
+        border: 2px solid #f35808;
+        background: #fff; }

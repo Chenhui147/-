@@ -66,7 +66,7 @@ gulp.task("watch",function(){
  var minifyCss = require("gulp-minify-css");
  var rename = require("gulp-rename");
  gulp.task("sass",function(){
- 	return gulp.src("scss/homePage.scss")
+ 	return gulp.src("scss/*.scss")
  	.pipe(sass())
  	.pipe(gulp.dest("dist/css"))
  	.pipe(connect.reload());

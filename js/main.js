@@ -6,8 +6,8 @@ require.config({
 	paths: {
 		"jquery": "jquery-1.11.3",
 		"jquery-cookie": "jquery.cookie",
-		"homePage": "homePage",
-		"lunbo":"lunbo"
+		"login":"login",
+		"register":"register",
 	},
 	//设置，模块之间的依赖关系
 	shim: {
@@ -24,6 +24,7 @@ require.config({
 })
 
 //主动调用
-require(["homePage"], function(homePage){
-	homePage.homePage();
+require(["login","register"], function(login,register){
+	login.login();
+	register.register();
 })

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>轮播图加左侧导航栏的数据</title>
+	<script>
+		var arr = [{title:"手机 电话卡",child:[
+		[{id:43,img:"images/lunboPic/1.jpg",name:"小米8"},{id:44,img:"images/lunboPic/2.jpg",name:"小米8 SE"},{id:45,img:"images/lunboPic/3.jpg",name:"小米MIX 2S"},{id:46,img:"images/lunboPic/4.jpg",name:"小米Max 3"},{id:47,img:"images/lunboPic/5.jpg",name:"小米6X"},{id:48,img:"images/lunboPic/27.png",name:"黑鲨游戏手机"}],
+		[{id:49,img:"images/lunboPic/1.jpg",name:"小米MIX 2"},{id:50,img:"images/lunboPic/21.png",name:"小米Max 2"},{id:51,img:"images/lunboPic/22.png",name:"红米6 Pro"},{id:52,img:"images/lunboPic/23.png",name:"红米6"},{id:53,img:"images/lunboPic/24.png",name:"红米6A"},{id:54,img:"images/lunboPic/25.png",name:"红米Note 5"}],
+		[{id:55,img:"images/lunboPic/1.jpg",name:"小米MIX 2"},{id:56,img:"images/lunboPic/21.png",name:"小米Max 2"},{id:57,img:"images/lunboPic/29.jpg",name:"移动4G+专区"},{id:58,img:"images/lunboPic/30.jpg",name:"对比手机"},{id:59,img:"images/lunboPic/13.jpg",name:"米粉卡 日租卡"},{id:60,img:"images/lunboPic/14.jpg",name:"小米移动 电话卡"}],
+		[{id:61,img:"images/lunboPic/28.png",name:"手机上门维修"}]
+		]},
+
+		{title:"电视 盒子",child:[
+		[{id:62,img:"images/lunboPic/7.png",name:"小米电视4 75英寸"},{id:63,img:"images/lunboPic/8.png",name:"小米电视4A 32英寸"},{id:64,img:"images/lunboPic/9.png",name:"小米电视4A 40英寸"},{id:65,img:"images/lunboPic/10.png",name:"小米电视4A 43英寸"},{id:66,img:"images/lunboPic/11.png",name:"小米电视4A 43英寸青春版"},{id:67,img:"images/lunboPic/12.png",name:"小米电视4A 49英寸"}],
+		[{id:68,img:"images/lunboPic/7.png",name:"小米电视4 75英寸"},{id:69,img:"images/lunboPic/8.png",name:"小米电视4A 32英寸"},{id:70,img:"images/lunboPic/9.png",name:"小米电视4A 40英寸"},{id:71,img:"images/lunboPic/10.png",name:"小米电视4A 43英寸"},{id:72,img:"images/lunboPic/11.png",name:"小米电视4A 43英寸青春版"},{id:73,img:"images/lunboPic/12.png",name:"小米电视4A 49英寸"}],
+		[{id:74,img:"images/lunboPic/7.png",name:"小米电视4 75英寸"},{id:75,img:"images/lunboPic/8.png",name:"小米电视4A 32英寸"},{id:76,img:"images/lunboPic/9.png",name:"小米电视4A 40英寸"},{id:77,img:"images/lunboPic/10.png",name:"小米电视4A 43英寸"},{id:78,img:"images/lunboPic/11.png",name:"小米电视4A 43英寸青春版"},{id:79,img:"images/lunboPic/12.png",name:"小米电视4A 49英寸"}],
+		[{id:80,img:"images/lunboPic/7.png",name:"小米电视4 75英寸"},{id:81,img:"images/lunboPic/8.png",name:"小米电视4A 32英寸"},{id:82,img:"images/lunboPic/9.png",name:"小米电视4A 40英寸"},{id:83,img:"images/lunboPic/10.png",name:"小米电视4A 43英寸"},{id:84,img:"images/lunboPic/11.png",name:"小米电视4A 43英寸青春版"},{id:85,img:"images/lunboPic/44.jpg",name:"小米盒子"}]
+		]},
+
+		{title:"笔记本 平板",child:[
+		[{id:86,img:"images/lunboPic/26.jpg",name:"小米平板4"},{id:87,img:"images/lunboPic/15.png",name:"小米游戏本15.6 第8代"},{id:88,img:"images/lunboPic/16.jpg",name:"小米游戏本15.6"},{id:89,img:"images/lunboPic/15.png",name:"笔记本Air 12.5"},{id:90,img:"images/lunboPic/16.jpg",name:"笔记本Air 13.3独显"},{id:91,img:"images/lunboPic/15.png",name:"笔记本Air 13.3集显"}],
+		[{id:92,img:"images/lunboPic/26.jpg",name:"小米平板4"},{id:93,img:"images/lunboPic/15.png",name:"小米游戏本15.6 第8代"},{id:94,img:"images/lunboPic/16.jpg",name:"小米游戏本15.6"},{id:95,img:"images/lunboPic/20.jpg",name:"HDMI转接器"},{id:96,img:"images/lunboPic/19.jpg",name:"VGA 千兆网口转接器"},{id:97,img:"images/lunboPic/47.jpg",name:"小米笔记本内胆包"}],
+		[{id:98,img:"images/lunboPic/17.jpg",name:"小米游戏键盘"},{id:99,img:"images/lunboPic/32.png",name:"悦米机械键盘"},{id:100,img:"images/lunboPic/18.jpg",name:"悦米机械键盘 Pro静音版"},{id:101,img:"images/lunboPic/20.jpg",name:"HDMI转接器"},{id:102,img:"images/lunboPic/33.png",name:"小米无线鼠标"},{id:103,img:"images/lunboPic/47.jpg",name:"小米笔记本内胆包"}],
+		[{id:104,img:"images/lunboPic/17.jpg",name:"小米游戏键盘"},{id:105,img:"images/lunboPic/32.png",name:"悦米机械键盘"},{id:106,img:"images/lunboPic/18.jpg",name:"悦米机械键盘 Pro静音版"},{id:107,img:"images/lunboPic/31.jpg",name:"笔记本双肩包"},{id:108,img:"images/lunboPic/33.png",name:"小米无线鼠标"},{id:109,img:"images/lunboPic/47.jpg",name:"小米笔记本内胆包"}]
+		]},
+
+		{title:"家电 插线板",child:[
+		[{id:110,img:"images/lunboPic/34.jpg",name:"米家互联网空调"},{id:111,img:"images/lunboPic/35.jpg",name:"净水器"},{id:112,img:"images/lunboPic/36.jpg",name:"净水器滤芯"},{id:113,img:"images/lunboPic/37.jpg",name:"扫地机器人"},{id:114,img:"images/lunboPic/38.jpg",name:"扫地机配件"},{id:115,img:"images/lunboPic/39.png",name:"空气净化器"}],
+		[{id:116,img:"images/lunboPic/34.jpg",name:"米家互联网空调"},{id:117,img:"images/lunboPic/35.jpg",name:"净水器"},{id:118,img:"images/lunboPic/36.jpg",name:"净水器滤芯"},{id:119,img:"images/lunboPic/37.jpg",name:"扫地机器人"},{id:120,img:"images/lunboPic/38.jpg",name:"扫地机配件"},{id:121,img:"images/lunboPic/39.png",name:"空气净化器"}],
+		[{id:122,img:"images/lunboPic/34.jpg",name:"投影仪"},{id:123,img:"images/lunboPic/35.jpg",name:"灯具"},{id:124,img:"images/lunboPic/36.jpg",name:"插线板"}]
+		]},
+
+		{title:"出行 穿戴",child:[
+		[{id:125,img:"images/lunboPic/34.jpg",name:"手环 手表"},{id:126,img:"images/lunboPic/35.jpg",name:"VR"},{id:127,img:"images/lunboPic/36.jpg",name:"平行车"},{id:128,img:"images/lunboPic/53.jpg",name:"滑板车"},{id:129,img:"images/lunboPic/38.jpg",name:"自行车"},{id:130,img:"images/lunboPic/39.png",name:"车载逆变器"}],
+		[{id:131,img:"images/lunboPic/34.jpg",name:"平衡车 配件"},{id:132,img:"images/lunboPic/35.jpg",name:"智能后视镜"},{id:133,img:"images/lunboPic/36.jpg",name:"车载空气净化器"}]
+		]},
+
+		{title:"智能 路由器",child:[
+		[{id:134,img:"images/lunboPic/49.jpg",name:"路由器"},{id:135,img:"images/lunboPic/41.jpg",name:"对讲机"},{id:136,img:"images/lunboPic/36.jpg",name:"智能家庭"},{id:137,img:"images/lunboPic/54.jpg",name:"无人机"},{id:138,img:"images/lunboPic/36.jpg",name:"摄像机"},{id:139,img:"images/lunboPic/44.jpg",name:"照相机"}]
+		]},
+
+		{title:"电源 配件",child:[
+		[{id:140,img:"images/lunboPic/34.jpg",name:"移动电源"},{id:141,img:"images/lunboPic/41.jpg",name:"数据线"},{id:142,img:"images/lunboPic/35.jpg",name:"车充"},{id:143,img:"images/lunboPic/36.jpg",name:"充电器"},{id:144,img:"images/lunboPic/37.jpg",name:"无线充"},{id:145,img:"images/lunboPic/38.jpg",name:"电池"}],
+		[{id:146,img:"images/lunboPic/34.jpg",name:"移动电源"},{id:147,img:"images/lunboPic/41.jpg",name:"数据线"},{id:148,img:"images/lunboPic/35.jpg",name:"车充"},{id:149,img:"images/lunboPic/36.jpg",name:"充电器"},{id:150,img:"images/lunboPic/37.jpg",name:"无线充"},{id:151,img:"images/lunboPic/38.jpg",name:"电池"}],
+		[{id:152,img:"images/lunboPic/34.jpg",name:"黑鲨配件"},{id:153,img:"images/lunboPic/41.jpg",name:"其他配件"}]
+		]},
+
+		{title:"个护 儿童",child:[
+		[{id:154,img:"images/lunboPic/41.jpg",name:"移动电源"},{id:155,img:"images/lunboPic/41.jpg",name:"数据线"},{id:156,img:"images/lunboPic/42.jpg",name:"车充"},{id:157,img:"images/lunboPic/36.jpg",name:"充电器"},{id:158,img:"images/lunboPic/43.jpg",name:"无线充"},{id:159,img:"images/lunboPic/38.jpg",name:"电池"}],
+		[{id:160,img:"images/lunboPic/44.jpg",name:"遥控电动"},{id:161,img:"images/lunboPic/41.jpg",name:"益智积木"},{id:162,img:"images/lunboPic/45.jpg",name:"儿童手表"},{id:163,img:"images/lunboPic/46.jpg",name:"儿童滑板车"},{id:164,img:"images/lunboPic/47.jpg",name:"儿童书包"}]
+		]},
+
+		{title:"耳机 音箱",child:[
+		[{id:165,img:"images/lunboPic/40.jpg",name:"小爱音箱"},{id:166,img:"images/lunboPic/52.jpg",name:"线控耳机"},{id:167,img:"images/lunboPic/42.jpg",name:"蓝牙耳机"},{id:168,img:"images/lunboPic/36.jpg",name:"头戴耳机"},{id:169,img:"images/lunboPic/43.jpg",name:"品牌耳机"},{id:170,img:"images/lunboPic/38.jpg",name:"蓝牙音箱"}]
+		]},
+
+		{title:"生活 箱包",child:[
+		[{id:171,img:"images/lunboPic/31.jpg",name:"双肩包"},{id:172,img:"images/lunboPic/42.jpg",name:"钱包"},{id:173,img:"images/lunboPic/46.jpg",name:"口罩"},{id:174,img:"images/lunboPic/48.jpg",name:"收纳包"},{id:175,img:"images/lunboPic/50.jpg",name:"旅行箱"},{id:176,img:"images/lunboPic/51.jpg",name:"运动鞋"}],
+		[{id:177,img:"images/lunboPic/31.jpg",name:"双肩包"},{id:178,img:"images/lunboPic/42.jpg",name:"钱包"},{id:179,img:"images/lunboPic/46.jpg",name:"口罩"},{id:180,img:"images/lunboPic/48.jpg",name:"收纳包"},{id:181,img:"images/lunboPic/50.jpg",name:"旅行箱"},{id:182,img:"images/lunboPic/51.jpg",name:"运动鞋"}],
+		[{id:183,img:"images/lunboPic/31.jpg",name:"双肩包"},{id:184,img:"images/lunboPic/42.jpg",name:"钱包"},{id:185,img:"images/lunboPic/46.jpg",name:"口罩"},{id:186,img:"images/lunboPic/48.jpg",name:"收纳包"},{id:187,img:"images/lunboPic/50.jpg",name:"旅行箱"},{id:188,img:"images/lunboPic/51.jpg",name:"运动鞋"}],
+		[{id:189,img:"images/lunboPic/31.jpg",name:"双肩包"},{id:190,img:"images/lunboPic/42.jpg",name:"钱包"},{id:191,img:"images/lunboPic/46.jpg",name:"口罩"},{id:192,img:"images/lunboPic/48.jpg",name:"收纳包"},{id:193,img:"images/lunboPic/50.jpg",name:"旅行箱"}]
+		]},
+		"images/lunboPic/lunbo1.jpg",
+		"images/lunboPic/lunbo2.jpg",
+		"images/lunboPic/lunbo3.jpg",
+		"images/lunboPic/lunbo4.jpg",
+		"images/lunboPic/lunbo5.jpg"
+		]
+
+
+		document.write(JSON.stringify(arr));
+	</script>
+</head>
+<body>
+</body>
+</html>

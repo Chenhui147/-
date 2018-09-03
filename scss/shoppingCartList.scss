@@ -1,0 +1,211 @@
+#top2{
+	border-bottom: 2px solid #fd6900;
+	>.top2-con{
+		width: 1200px;
+		height: 80px;
+		margin: 0 auto;
+		padding-top: 20px;
+		>a{
+			float: left;
+		}
+		>div:nth-of-type(1){
+			float: left;
+			height: 50px;
+			line-height: 50px;
+			margin-left: 40px;
+			>span:nth-child(1){
+				font-size: 26px;
+			}
+			>span:nth-child(2){
+				font-size: 13px;
+				color: #838383;
+			}
+		}
+		>div:nth-of-type(2){
+			float: right;
+			height: 50px;
+			line-height: 50px;
+			color: #e9e4ea;
+			font-size: 13px;
+			>a{
+				color: #747474;
+			}
+		}
+	}
+}
+
+/* shopCartList购物车列表部分 */
+#shopCartList{
+	background: #f5f5f5;
+	padding-top: 30px;
+	>.shopCartList-con{
+		width: 1200px;
+		min-height:490px;
+		margin: 0 auto;
+		>p{
+			height: 66px;
+			line-height: 66px;
+			font-size: 13px;
+			color: #434542;
+			background: #fff;
+			padding-left: 25px;
+			border-bottom: 1px solid #ddd;
+			display: none;
+			>span:nth-of-type(1){
+				margin: 0 350px 0 140px;
+			}
+			>span:nth-of-type(3){
+				margin: 0 150px 0 145px;
+			}
+			>span:nth-of-type(4){
+				margin-right: 100px;
+			}
+		} 
+		i{
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			border: 1px solid #ddd;
+			line-height: 20px;
+			text-align: center;
+			font-size: 18px;
+			margin-right: 10px;
+			cursor: pointer;
+			color: #fff;
+			font-weight: bolder;
+		}
+		>ul{
+			min-height: 40px;
+			>li{
+				height: 115px;
+				background: #fff;
+				border-bottom: 1px solid #ddd;
+				font-size: 20px;
+				line-height: 115px;
+				padding-left: 25px;
+				>a{
+					display: inline-block;
+					color: #4a353c;
+					position: relative;
+					padding-left: 80px;
+					width: 465px;
+					margin-left: 20px;
+					line-height: 105px;
+					>img{
+						width: 75px;
+						height: 75px;
+						position: absolute;
+						left: 0;
+						top: 10px;
+					}
+				}
+				>b{
+					display: inline-block;
+					width: 155px;
+					height: 35px;
+					border: 1px solid #ddd;
+					line-height: 35px;
+					margin: 0 69px;
+					>span:nth-child(1){
+						display: inline-block;
+						width: 40px;
+						height: 35px;
+						text-align: center;
+						font-size: 30px;
+						cursor: pointer;
+					}
+					>span:nth-child(3){
+						display: inline-block;
+						width: 40px;
+						height: 35px;
+						text-align: center;
+						font-size: 30px;
+						cursor: pointer;
+					}
+					>span:nth-child(2){
+						display: inline-block;
+						width: 75px;
+						height: 35px;
+						text-align: center;
+					}
+				}
+				>span:nth-of-type(3){
+					font-size: 30px;
+					color: #72716f;
+					margin-left: 85px;
+					cursor: pointer;
+				}
+			}
+		}
+		>.settlement{
+			margin-top: 20px;
+			height: 50px;
+			background: #fff;
+			padding-left: 25px;
+			line-height: 50px;
+			display: none;
+			>a:nth-of-type(1){
+				color: #6c6c64;
+			}
+			>span:nth-of-type(1){
+				color:#6c6c64; 
+				>span{
+					color: #ff6800;
+				}
+			}
+			>span:nth-of-type(2){
+				color:  #ff6800;
+				margin-left: 590px;
+				>b{
+					font-size: 22px;
+				}
+			}
+			>a:nth-of-type(2){
+				display: block;
+				width: 200px;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				color: #fff;
+				background: #ff6702;
+				float: right;
+			}
+		}
+		>.emptyCart{
+			width:600px;
+			height: 262px;
+			margin: 0 auto;
+			position: relative;
+			padding-left: 400px;
+			padding-top: 63px;
+			display: none;
+			>img{
+				position: absolute;
+				left: 0;
+				top: 38px;
+			}
+			>h1{
+				font-size: 35px;
+				color: #b0b0b0;
+			}
+			>h2{
+				font-size: 18px;
+				color: #b1b1b1;
+				margin: 10px 0 20px 0;
+			}
+			>a{
+				display: inline-block;
+				width: 172px;
+				height: 50px;
+				border: 1px solid #ff9534;
+				text-align: center;
+				line-height: 50px;
+				color: #ff9a55;
+			}
+			>a:nth-of-type(1){
+				color: #fff;
+				background: #ff6702;
+			}
+		}
+	}
+}
